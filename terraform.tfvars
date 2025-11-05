@@ -1,0 +1,5 @@
+resource_group_name    = "rg-webapp-demo"
+location               = "Central US"
+storage_account_name   = "webappstorage12345xyz"
+service_plan_name      = "appserviceplan-demo"
+web_app_name           = "webapp-demo123"
