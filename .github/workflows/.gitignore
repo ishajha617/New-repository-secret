@@ -1,0 +1,8 @@
+@"
+# Ignore Terraform local files
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+*.zip
+"@ | Out-File -Encoding UTF8 .gitignore
